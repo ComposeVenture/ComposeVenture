@@ -1,0 +1,21 @@
+.NavigationButton{
+    background: forestgreen;
+    width: 50%;
+    height: 35px;
+    left: 25%;
+    margin-bottom: 1rem;
+}
+
+.CloudIcon{
+    width: 100px;
+    margin-left: 45%;
+}
+
+@media screen and (max-width:1300px) {
+
+    .CloudIcon{
+        width: 80px;
+        margin-left: 45%;
+    }
+
+}

@@ -1,0 +1,36 @@
+@import url('../../App/App.css');
+@import url('../../Connection/Connection.css');
+@import url('./classes.css');
+@import url('./color.css');
+@import url('./Components.css');
+@import url('./Templates.css');
+
+/* Hide both vertical and horizontal scrollbars */
+::-webkit-scrollbar {
+    width: auto;
+    height: auto;
+  }
+  
+  /* Style the thumb for both vertical and horizontal scrolling */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    border-radius: 10px;
+  }
+  
+@media screen and (max-width:800px) {
+
+    /* Hide both vertical and horizontal scrollbars */
+::-webkit-scrollbar {
+    width: auto;
+    height: auto;
+    display: none;
+  }
+  
+  /* Style the thumb for both vertical and horizontal scrolling */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    border-radius: 10px;
+  }
+  
+    
+}

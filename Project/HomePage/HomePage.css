@@ -1,0 +1,200 @@
+.AppName{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    margin-right: 20rem;
+    color: #6f6fa7;
+}
+
+.HeaderSections{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AppLogo{
+    width: 30%;
+    object-fit: cover;
+    height: auto;
+    margin: 2% 2%;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.ShortDescripton{
+    right: 1%;
+    width: auto;
+    height: 63%;
+    background: #000000;
+    top: 4%;
+    left: 35%;
+    border-radius: 5px;
+    display: inline-flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#HomeShortDiv{
+    top: 7%;
+}
+
+.DataDivs{
+    position: relative;
+    width: 95%;
+    background: transparent;
+    border: 1px solid #cdcdcd20;
+    height: 90%;
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ShortNews{
+    position: relative;
+    width: 97%;
+    left: 2%;
+    background: transparent;
+    height: 50%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 1px solid #cdcdcd20;
+}
+
+.ShortContacts{
+    position: relative;
+    width: 97%;
+    left: 2%;
+    background: transparent;
+    height: 10%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 1px solid #cdcdcd20;
+    display: inline-flex;
+}
+
+.CeoImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 20rem;
+    object-fit: cover;
+}
+
+#MobileMenu{
+    display: none;
+}
+
+@media screen and (max-width:1300px ) {
+
+    .AppName{
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 1rem;
+        margin-right: 0rem;
+        color: #6f6fa7;
+    }
+    
+    .HeaderSections{
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    
+    .AppLogo{
+        width: 95%;
+        object-fit: cover;
+        height: auto;
+        margin: 2% 2%;
+        border-radius: 20px;
+        background: transparent;
+    }
+    
+    .ShortDescripton{
+        position: relative;
+        right: 1%;
+        width: 100%;
+        height: 90%;
+        background: transparent;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    .DataDivs{
+        position: relative;
+        width: 95%;
+        background: #000000;
+        border: 1px solid #cdcdcd20;
+        height: 90%;
+        flex-shrink: 0;
+        margin-top: 0.5rem ;
+        margin-bottom:  0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        border-radius: 5px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    .ShortNews{
+        position: relative;
+        width: 95%;
+        left: 2%;
+        background: transparent;
+        height: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        border: 1px solid #cdcdcd20;
+    }
+    
+    .ShortContacts{
+        position: relative;
+        width: 95%;
+        left: 2%;
+        background: transparent;
+        height: 10%;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        border: 1px solid #cdcdcd20;
+        display: inline-flex;
+    }
+    
+    .CeoImage{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        margin-left: 5rem;
+        object-fit: cover;
+    }
+    #MobileMenu{
+        display: inline-flex;
+    }
+
+    .HomeHeader{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #HomeShortDiv{
+        top: 0;
+    }
+}
