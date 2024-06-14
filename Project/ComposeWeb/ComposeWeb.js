@@ -1,5 +1,6 @@
 import { FORDEVELOPERSPAGE } from "../ForDeveloperPage/ForDevelopersPage.js";
 import { COMPOSECLOUDCOMPONENTS } from "./ComposeSectionsComponents.js";
+import { GUIDELINES } from "./Guidelines.js";
 
 export const COMPOSEWEBPAGE = () => {
 
@@ -55,8 +56,16 @@ export const COMPOSEWEBPAGE = () => {
     <p>Written by Compose Ventures Editor Team</p>
 
     <p>&copy; Compose Ventures 2024</p>
-    `, 'Developers Page'
+    `, ''
     );
 
+    const WebComponentsDetails=document.querySelector('.WebComponentsDetails');
+
     CLICKED('#HomeComposeWeb', () => { COMPOSEWEBPAGE() })
+
+    CLICKED('#Guidelines',()=>{
+
+        DISPLAY(WebComponentsDetails,GUIDELINES);
+
+    })
 }

@@ -2,7 +2,7 @@ export const COMPOSECLOUDCOMPONENTS=`
 
     <button id='HomeComposeWeb' class='Button'>Home</button>
     
-    <button class='Button'>Guidelines</button>
+    <button id='Guidelines' class='Button'>Guidelines</button>
 
     <button class='Button'>Installation</button>
 
